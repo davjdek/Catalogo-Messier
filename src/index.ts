@@ -20,7 +20,8 @@ const options:cors.CorsOptions = {
     methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
     origin: ['http://localhost:8080',
         'http://localhost:4200',
-        'http://localhost'
+        'http://localhost',
+        'https://catalogo-messier-angular.onrender.com'
     ],
     preflightContinue: false,
     optionsSuccessStatus: 200
