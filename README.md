@@ -1,3 +1,3 @@
-# RUSCOS
+CATALOGO MESSIER
 
-Progettino simil-Nagios della prestigiosa RuscoUnit
+Il famoso catalogo degli oggetti celesti non stellari
