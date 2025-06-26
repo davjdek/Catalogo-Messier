@@ -1,0 +1,46 @@
+{
+  "name": "ruscos-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start-js": "node ./dist/index.js",
+    "start-ts": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/ruscounit/ruscos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.12",
+    "@types/jsonwebtoken": "^8.5.9",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "bcrypt": "^5.1.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^3.14.1",
+    "oracledb": "^6.8.0",
+    "routing-controllers": "0.11.2",
+    "typeorm": "^0.3.22"
+  },
+  "resolutions": {
+    "css-loader": "^6.0.0"
+  }
+}
